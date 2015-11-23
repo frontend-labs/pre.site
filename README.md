@@ -1,14 +1,35 @@
-# FrontEnd-Labs PRE
+FrontEnd-Labs PRE
+================
 
 Environment used with docker & jekyll
 
-**Requirements**
+Requirements
+-----------------
 
-It's neccesary to install docker in your system, can check:
+**Install docker(Only for linux users)**
+Replace the word Ubuntu for the user host.
 
-- [http://docs.docker.com/engine/installation/]( http://docs.docker.com/engine/installation/ )
+```
+curl -sSL https://get.docker.com/ | sh
+sudo usermod -aG docker Ubuntu  
+sudo service docker start
+```
 
+For others systems You can download the installer of **docker toolbox** from [https://www.docker.com/docker-toolbox](https://www.docker.com/docker-toolbox)
 
+**Install Docker Compose (Only for linux users)**
+A tool for run many containers in one sentence.
+
+```
+sudo su
+curl -L https://github.com/docker/compose/releases/download/1.4.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+exit
+docker-compose --version
+```
+
+Time to run it!
+-----------------
 
 **For Linux users**
 
@@ -34,3 +55,4 @@ Its pending
 - [https://getcarina.com/docs/tutorials/preview-jekyll-with-docker-on-mac/](https://getcarina.com/docs/tutorials/preview-jekyll-with-docker-on-mac/)
 
 - [https://docs.docker.com/compose/](https://docs.docker.com/compose/)
+
