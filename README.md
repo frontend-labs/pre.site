@@ -2,6 +2,14 @@
 
 Environment used with docker & jekyll
 
+**Requirements**
+
+It's neccesary to install docker in your system, can check:
+
+- [http://docs.docker.com/engine/installation/]( http://docs.docker.com/engine/installation/ )
+
+
+
 **For Linux users**
 
     ~ docker-compose up
